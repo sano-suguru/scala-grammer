@@ -1,3 +1,3 @@
-class ControlSyntax {
+object ControlSyntax {
 
 }
