@@ -44,16 +44,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Scala Console" value="166" />
+          <entry key="Scala Console" value="176" />
           <entry key="md" value="1" />
           <entry key="sbtShell" value="10" />
-          <entry key="scala" value="549" />
+          <entry key="scala" value="587" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Scala" value="715" />
+          <entry key="Scala" value="763" />
           <entry key="sbtShell" value="10" />
         </counts>
       </usages-collector>
@@ -83,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ControlSyntax.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+            <state relative-caret-position="390">
+              <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -142,7 +142,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540551719553" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540551882179" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -238,13 +238,13 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" sideWeight="0.49936947" weight="0.32911393" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" weight="0.32911393" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49936947" visible="true" weight="0.32911393" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5006305" side_tool="true" visible="true" weight="0.32911393" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49936947" weight="0.32911393" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50126106" side_tool="true" visible="true" weight="0.32911393" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" weight="0.32911393" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49936947" weight="0.32911393" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49873897" visible="true" weight="0.32911393" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -283,8 +283,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ControlSyntax.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        <state relative-caret-position="390">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
         </state>
       </provider>
     </entry>

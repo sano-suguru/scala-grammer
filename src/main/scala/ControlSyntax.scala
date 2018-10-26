@@ -24,8 +24,9 @@ object ControlSyntax {
 
   // forも式
   // 多重ループをひとつの for で表現で書ける
+  // if でフィルタリングできる( x と y の値が等しくなる場合のループ処理は行われない)
   def doubleLoop(): Unit = {
-    for (x <- 1 to 5; y <- 1 until 5) {
+    for (x <- 1 to 5; y <- 1 until 5 if x != y) {
       println(s"x = ${x} y = ${y}")
     }
   }
