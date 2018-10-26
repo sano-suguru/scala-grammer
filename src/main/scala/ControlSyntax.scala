@@ -10,4 +10,10 @@ object ControlSyntax {
     }
     println(message)
   }
+
+  def printWhileResult(): Unit = {
+    var i = 0
+    val result = while (i < 10) i = i + 1
+    println(result)
+  }
 }
