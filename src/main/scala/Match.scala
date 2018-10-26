@@ -26,4 +26,19 @@ object Match {
     }
     println(seq)
   }
+
+  def patternMatchWithIf(): Unit = {
+    val seq = ('A' to 'E').map(_.toString)
+    seq match {
+        // ガード句をかける
+      case Seq("A", b, c, d, e) if b != "B" =>
+        println("b = " + b)
+        println("c = " + c)
+        println("d = " + d)
+        println("e = " + e)
+      case _ =>
+        println("nothing")
+    }
+    println(seq)
+  }
 }
