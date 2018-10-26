@@ -6,4 +6,10 @@ object Match {
       case _ => "other" // 全てマッチする
     }
   }
+
+  def message(message: String): String = {
+    message match {
+      case "good" | "bad" => "game" // | を利用して複数のパターンをまとめる
+    }
+  }
 }
