@@ -30,4 +30,10 @@ object ControlSyntax {
       println(s"x = ${x} y = ${y}")
     }
   }
+
+  def collectionLoop(): Unit =
+    for (e <- Seq("A", "B", "C", "D", "E")) println(e)
+
+  def generateCollection(): Seq[String] =
+    for (e <- Seq("A", "B", "C", "D", "E")) yield "Pre" + e
 }
