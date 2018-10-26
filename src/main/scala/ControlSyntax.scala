@@ -36,4 +36,13 @@ object ControlSyntax {
 
   def generateCollection(): Seq[String] =
     for (e <- Seq("A", "B", "C", "D", "E")) yield "Pre" + e
+
+  def printIsBaby(age: Int, isSchoolStarted: Boolean): Unit = {
+    val isBaby = (1 to 6).contains(age) && isSchoolStarted
+    if (isBaby) {
+      println("幼児です")
+    } else {
+      println("幼児ではありません")
+    }
+  }
 }
