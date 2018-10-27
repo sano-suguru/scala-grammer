@@ -80,4 +80,11 @@ object Match {
       println(result)
     }
   }
+
+  def last(seq: Seq[Int]): Int = {
+    seq match {
+      case Seq(x) => return  x
+      case x::xs => last(xs)
+    }
+  }
 }
