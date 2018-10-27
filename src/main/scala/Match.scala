@@ -41,4 +41,15 @@ object Match {
     }
     println(seq)
   }
+
+  def patternMatchNest(): Unit = {
+    val seq = Seq(Seq("A"), Seq("B", "C", "D", "E"))
+    seq match {
+      case Seq(a@Seq("A"), x) =>
+        println(a)
+        println(x)
+      case _ =>
+        println("nothing")
+    }
+  }
 }
