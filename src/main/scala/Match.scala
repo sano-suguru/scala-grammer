@@ -70,4 +70,14 @@ object Match {
       case v: Seq[String] => println("Seq[String]")
     }
   }
+
+  def printRandomChars(): Unit = {
+    for (_ <- 1 to 1000) {
+      val chars: Seq[Char] = new scala.util.Random(new java.security.SecureRandom()).alphanumeric.take(5).toList
+      val result = chars match {
+        case Seq(a, b, c, d, _) => Seq(a, b, c, d, a)
+      }
+      println(result)
+    }
+  }
 }
