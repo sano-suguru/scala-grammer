@@ -60,4 +60,14 @@ object Match {
       case v: String => println(s"String! length is ${v.length}")
     }
   }
+
+  def patternMatchGenerics(): Unit = {
+    val obj: AnyRef = Seq("a", "b", "c")
+    //実行時は型消去でgenericsの型が消えてるからSeq[int]にマッチしてしまう。
+    // C# は IL でもgenericsの型が残っているからSwitchで正しくパターンマッチする
+    obj match {
+      case v: Seq[Int] => println("Seq[Int]")
+      case v: Seq[String] => println("Seq[String]")
+    }
+  }
 }
