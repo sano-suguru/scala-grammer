@@ -19,4 +19,14 @@ object DayOfWeek {
       case Saturday => 7
     }
   }
+
+  def nextDayOfWeek(day: DayOfWeek): DayOfWeek = day match {
+    case Sunday => Monday
+    case Monday => Tuesday
+    case Tuesday => Wednesday
+    case Wednesday => Thursday
+    case Thursday => Friday
+    case Friday => Saturday
+    case Saturday => Sunday
+  }
 }
