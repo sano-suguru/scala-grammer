@@ -1,6 +1,9 @@
 package jp.co.dwango.marubatsu.board
 
-class Board(val cells: Map[(Int, Int), CellState], val next: CellState) {
+private[marubatsu] class Board(
+  private[marubatsu] val cells: Map[(Int, Int), CellState],
+  private [marubatsu] val next: CellState
+) {
 
   def put(row: Int, column: Int): Board = {
     new Board(cells + ((row, column) -> next), getNext(next))
