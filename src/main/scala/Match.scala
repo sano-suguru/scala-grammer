@@ -87,4 +87,11 @@ object Match {
       case x::xs => last(xs)
     }
   }
+
+  def reverse(seq: Seq[Int]): Seq[Int] = {
+    seq match  {
+      case Seq(x) => Seq(x)
+      case x::xs => reverse(xs) :+ x
+    }
+  }
 }
